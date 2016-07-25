@@ -1,0 +1,220 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.section_3
+		.middle-section
+			.img-wrap
+      	margin: 12px 0 0 38px !important
+		.bottom-content
+			.col-sm-4
+				&:nth-child(2)
+					padding: 160px 40px 0 100px !important
+
+
+	.main-mnu
+		display: none
+		float: right
+		min-width: 295px
+		text-align: right
+		background-color: #24303d
+		margin-top: 15px
+		position: absolute
+		right: 10px
+		top: 40px
+		z-index: 2
+		ul
+			li
+				display: block
+				line-height: 0
+				padding: 0
+			a
+				display: block
+				font-size: em(18px)
+				line-height: 48px
+				padding: 0 20px
+				background-color: transparent
+				transition: all .2s ease
+				&:hover
+					background-color: #34465a
+	.phone
+		padding-right: 65px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.section_3
+		.section-content
+			min-height: 620px
+			#top2
+				top: 0px
+			.container:nth-child(1)
+				padding-top: 20px
+			background: none
+			.col-sm-4
+				padding: 0 10px 0 10px !important
+				margin: 0 !important
+		.bottom-content
+			.col-sm-4
+				&:nth-child(2)
+					padding: 0 !important
+		.middle-section
+			padding-top: 0
+			.book-icon
+				// display: none
+
+	.section-content
+		.s1-bottom-triangle
+			background-size: cover
+	.header-wrap
+		.header-left
+			margin-top: 0
+			h1
+				margin-top: 0
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.section_5
+		.slicer
+			margin-left: 50px
+	.section_3
+		.button-wrap
+			padding: 0 10px 0 10px
+		.bottom-content
+			.col-sm-4
+				&:nth-child(2)
+					padding: 10px 10px 0 10px !important
+		.section-content
+			.container
+				padding-top: 0 !important
+			.col-sm-4
+				padding: 10px 10px 0 10px !important
+				margin: 0 !important
+				p
+					padding-bottom: 20px
+					border-bottom: 1px solid #546476
+		.middle-section
+			.book-icon
+				display: none
+	.section_1
+		#logo-2
+			padding-top: 35px
+		.bottom-content
+			padding-bottom: 30px
+		.col-sm-4
+			padding-top: 0 !important
+			padding-bottom: 0 !important
+		#top
+			top: 0px !important
+		.middle-section
+			padding-top: 0px
+			.col-sm-4:last-child
+				hr
+					border-color: transparent
+		hr
+			padding-top: 15px
+			padding-bottom: 5px
+		.top-section
+			padding-top: 0
+		.section-head
+			margin-bottom: 30px
+		.bottom-content, .section-content
+			padding-bottom: 30px
+			.col-sm-4
+				padding-right: 10px
+				padding-left: 10px
+		.section-content
+			padding-bottom: 50px
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.section_7
+		.owl-nav
+			top: 12%
+	.section_2
+		.icons
+	    .col-md-2
+	      margin-bottom: 30px
+	      img
+	        max-height: 55px
+	        max-width: 60px
+		.col-md-2
+			p
+        font-size: em(12px) !important
+	.phone-wrap
+		.phone
+			font-size: em(17px)
+			line-height: 34px
+			padding-right: 45px
+		.toggle-mnu
+			line-height: 34px
+			margin: 0
+
+	.logo
+		img
+			width: 75px
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.section_7
+		.owl-nav
+			display: none
+	.section_5
+		.slicer
+			margin-right: 0
+			.slice svg
+				max-width: 260px
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.main-mnu
+		display: block !important
+	a
+		outline: none !important

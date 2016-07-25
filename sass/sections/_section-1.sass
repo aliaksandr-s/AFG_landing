@@ -1,0 +1,94 @@
+.section_1:before
+	@extend .waves
+.homesect
+	padding-top: 70px
+	background-color: #f9f9f9
+	position: relative
+	.section-head
+		margin-bottom: 50px
+		h2
+			text-align: center
+			position: relative
+			animation-delay: 0.3s
+			&::after
+				content: ''
+				position: absolute
+				bottom: -30px
+				left: 50%
+				width: 160px
+				height: 4px
+				background-color: $main-color
+				display: block
+				transform: translate(-50%, 0)
+		p
+			padding-top: 30px
+			animation-delay: 0.6s
+			a
+				font-family: "RalewayBold", $helvetica
+				&:hover
+					text-decoration: none
+
+	.section-bottom
+		// margin-top: 70px
+		background-color: #2c3949
+		padding: 50px 0
+
+	.section-content
+		min-height: 548px
+		background: url(img/s1_gray_bg.png)
+		background-repeat: no-repeat
+		background-position: bottom
+		position: relative
+		padding-bottom: 90px
+		a:hover
+			text-decoration: none
+
+	.s1-bottom-triangle
+		bottom: 0
+		position: absolute
+		z-index: 2
+		height: 90px
+		background: url(img/s1_triangle.svg)
+		background-position: top
+		width: 100%
+		background-size: 100% 100%
+		text-align: center
+		background-repeat: no-repeat
+		#logo-1 img
+			margin-top: -127px
+			width: 159px
+		#logo-2 img
+			margin-right: 10px
+			margin-top: -10px
+			width: 110px
+
+	.bottom-content
+		background-color: #394b5f
+		.col-sm-4
+			@extend .col-sm-4-style
+		h4 a
+			@extend .section-h4
+		p
+			@extend .section-p
+		hr
+			border-color: #546476
+		#middle
+			padding-top: 60px
+			padding-bottom: 60px
+
+	.top-section, .middle-section
+		.col-sm-4
+			@extend .col-sm-4-style
+		h4 a
+			@extend .section-h4
+		p
+			@extend .section-p
+			color: #111
+		hr
+			border-color: #dfe1e5
+	.top-section
+		padding-top: 60px
+		#top
+			top: -90px
+	.middle-section
+		padding-top: 30px

@@ -1,0 +1,48 @@
+.section_2:before
+	@extend .waves
+.section_2
+  h3
+    text-align: center
+    margin-top: 55px
+  .icons
+    text-align: center
+    .col-md-2
+      line-height: 60px
+      margin-bottom: 70px
+      img
+        display: inline-block
+        vertical-align: middle
+        max-height: 65px
+        max-width: 70px
+      hr
+        margin-top: 35px
+        margin-bottom: 15px
+        border-bottom: 2px solid $main-color
+        width: 35%
+      p
+        margin-top: 0
+        line-height: em(18px)
+        font-size: em(14px)
+        font-family: "RalewayBold", $helvetica
+        color: #222
+        text-decoration: underline
+  .section-bottom
+    background-color: #e5e5e5
+  a
+    text-decoration: none
+  .link-wrapper
+    transition: all 0.6s ease
+  .link-wrapper:hover
+    transform: translateY(-10px)
+    p
+      transition: all 0.3s ease
+      text-decoration: none
+      color: $main-color
+.section_2
+	.col-md-2
+		opacity: 0
+		transition: all 0.3s ease
+		transform: translateX(-60px)
+		&.on
+			opacity: 1
+			transform: translateX(0)
