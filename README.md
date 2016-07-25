@@ -1,8 +1,8 @@
-## Install
+### Install and run
 
-`npm i`
-
-## Run
-
+`npm i` </ br>
 `gulp`
+
+
+
 
