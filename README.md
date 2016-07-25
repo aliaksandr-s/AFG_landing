@@ -1,1 +1,8 @@
-# AFG
+## Install
+
+`npm i`
+
+## Run
+
+`gulp`
+
